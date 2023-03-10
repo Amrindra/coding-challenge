@@ -31,7 +31,7 @@ const TableList = ({ donorData, isLoading }) => {
             />
           </InputGroup>
 
-          <Select placeholder="Select option" width="200px">
+          <Select placeholder="Sort by" width="200px">
             <option value="option1">Active forms</option>
             <option value="option2">Inactive forms</option>
           </Select>
