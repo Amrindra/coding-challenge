@@ -1,0 +1,25 @@
+.donor-list-table{ 
+  background-color: rgba(#3A3A40, 5%);
+  
+  .donor-wrapper{
+    width: 85%;
+    margin: 0 auto;
+
+    .table-list-info{
+      padding: 50px 0;
+
+      
+      .donor-list-title{
+        font-size: 2.125rem !important;
+        font-weight: 400;
+        line-height: 2.5rem;
+        letter-spacing: 0.0073529412em !important;
+      }
+      
+      p{
+        margin-top: 12px;
+        line-height: 1.5;
+      }
+    }
+  }
+}

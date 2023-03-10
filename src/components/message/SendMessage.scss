@@ -1,0 +1,38 @@
+.send-message{
+  // background-color: rgba(#3A3A40, 5%);
+
+  .send-message-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    
+    .send-message-info{
+      
+      h3{
+        font-size: 3rem !important;
+        font-weight: 400;
+        line-height: 3.125rem;
+        letter-spacing: normal !important;
+      }
+      
+      p{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        line-height: 1.5;
+      }
+    }
+
+    @media screen and (max-width: 1024px){
+      flex-direction: column;
+
+      .send-message-info{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+      }
+     
+    }         
+  }
+}

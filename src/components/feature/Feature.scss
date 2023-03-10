@@ -1,0 +1,22 @@
+.feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0;
+  
+  .featuer-title{
+    font-size: 3rem !important;
+    font-weight: 400;
+    line-height: 3.125rem;
+    letter-spacing: normal !important;
+  }
+
+  .feature-desc{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+}
